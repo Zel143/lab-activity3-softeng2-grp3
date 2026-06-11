@@ -1,0 +1,42 @@
+# ============================================================
+# Lab Activity 3 — .gitignore
+# ============================================================
+
+# --- Copyrighted course material (do not push to public repo) ---
+Ch 21 - Real-time software engineering - Tagged.pdf
+
+# --- Microsoft Office temp/lock files ---
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# --- OS-generated junk ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Python (if test scripts are written in Python) ---
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.env
+
+# --- Node / JS (if Selenium or test runner used) ---
+node_modules/
+.npm
+
+# --- Test output / logs (keep source, not noise) ---
+*.log
+test-results/
+reports/
+
+# ============================================================
+# TRACKED (do NOT ignore these):
+# ============================================================
+# README.md                        — project overview
+# Enhanced_Test_Template(1).xlsx   — deliverable (test cases + results)
+# Lab_Testing_Exercise.docx        — lab instructions reference
+# context/                         — all workflow context files
+# sample team workflow/            — team playbook + phase docs
+# ============================================================
