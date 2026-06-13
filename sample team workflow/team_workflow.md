@@ -32,7 +32,7 @@
 | 2 — Requirement Analysis | ✅ | Test Designer | Completed in `phase2_requirement_analysis.md` |
 | 3 — Test Case Writing | ✅ | Test Designer | Completed in `phase3_test_cases.csv` |
 | 4 — Script Development | ✅ | Script Developer | Completed in `phase4_test_scripts.md` |
-| 5 — Execution | ✅ | Executor | Results recorded in `phase3_test_cases.csv` |
+| 5 — Execution | ✅ | Executor | Completed in `phase5_test_execution.md` |
 | 6 — Review & Report | ✅ | Reviewer + Lead | Summary generated in `phase6_summary_report.md` |
 
 **Status Legend:** ⏳ Not Started | 🔄 In Progress | ✅ Done | ❌ Blocked
