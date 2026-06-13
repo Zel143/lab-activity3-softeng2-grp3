@@ -30,7 +30,7 @@
 | 0 — Setup | ✅ | All | Context files ready in `context/` |
 | 1 — Feature Selection | ✅ | Test Lead | **User Login** selected → see `phase1_feature_selected.md` |
 | 2 — Requirement Analysis | ✅ | Test Designer | Completed in `phase2_requirement_analysis.md` |
-| 3 — Test Case Writing | ✅ | Test Designer | Completed in `phase3_test_cases.csv` |
+| 3 — Test Case Writing | ✅ | Test Designer | Completed in `phase3_test_cases.md` |
 | 4 — Script Development | ✅ | Script Developer | Completed in `phase4_test_scripts.md` |
 | 5 — Execution | ✅ | Executor | Completed in `phase5_test_execution.md` |
 | 6 — Review & Report | ✅ | Reviewer + Lead | Summary generated in `phase6_summary_report.md` |

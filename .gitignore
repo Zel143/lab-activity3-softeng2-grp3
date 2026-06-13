@@ -4,7 +4,6 @@
 
 # --- Copyrighted course material (do not push to public repo) ---
 Ch 21 - Real-time software engineering - Tagged.pdf
-
 # --- Microsoft Office temp/lock files ---
 ~$*.xlsx
 ~$*.docx
@@ -30,6 +29,10 @@ node_modules/
 *.log
 test-results/
 reports/
+files
+
+MASTER_PROMPT_FOR_CLAUDE.md
+MASTER_PROMPT_FOR_GEMINI.md
 
 # ============================================================
 # TRACKED (do NOT ignore these):

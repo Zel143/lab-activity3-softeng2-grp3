@@ -120,7 +120,7 @@ g:\Lab Acitivity 3\
 
 | Field | Value |
 |---|---|
-| **Author** | [Your Name] |
+| **Author** | Jon Luigi Ariola, Justine Leee Jimenez, Rafael Jerick Del Agua, Ranzel Jude Virtucio, Yuan Dream Alcantara |
 | **Section** | [Your Section] |
 | **Instructor** | [Instructor Name] |
 | **Institution** | [Your Institution] |

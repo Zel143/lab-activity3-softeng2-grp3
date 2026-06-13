@@ -1,20 +1,3 @@
-# 🟡 Phase 4 — Script Development
-## Status: ✅ DONE
-
-> **Script Developer responsibility.** This document contains the automated test scripts (Python/pytest) generated from the test cases in Phase 3.
-
----
-
-## Technical Setup
-- **Framework:** pytest
-- **Approach:** Mocked system interactions (simulating a login system)
-- **File Structure:** `test_login_feature.py`
-
----
-
-## 📄 `test_login_feature.py`
-
-```python
 import pytest
 import time
 
@@ -108,18 +91,3 @@ def test_tc005_session_timeout(system, monkeypatch):
     monkeypatch.setattr(time, 'time', lambda: future_time)
 
     assert system.check_session("testuser") == "EXPIRED"
-```
-
----
-
-## Quality Gate Checklist ✅
-- [x] Scripts match TC logic exactly
-- [x] Setup, steps, and assertions included
-- [x] Force-fail validation: Scripts fail if `LoginSystem` logic is changed to be incorrect
-- [x] Real-time timing (timeout) is simulated correctly
-
----
-
-## Next Phase: Phase 5 — Test Execution
-**Owner:** Executor
-**Action:** Run these scripts using `pytest` and record the results.

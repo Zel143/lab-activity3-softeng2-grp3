@@ -1,3 +1,0 @@
-Test Case ID,Description,Preconditions,Test Steps,Test Data,Expected Result,Actual Result,Status
-TC-01,Valid login,User registered,Enter valid credentials,user@test.com / 123456,Dashboard loads,,
-TC-02,Invalid password,User registered,Enter wrong password,user@test.com / wrong,Error message,,

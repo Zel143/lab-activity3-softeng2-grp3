@@ -1,0 +1,6 @@
+Test Case ID,Description,Preconditions,Test Steps,Test Data,Expected Result,Actual Result,Status
+TC-001,Valid credentials login,User registered,1. Enter valid username\n2. Enter valid password\n3. Click Login,testuser / Pass123!,Dashboard loads within 3s,Dashboard loaded in 1.01s,PASS
+TC-002,Invalid password,User registered,1. Enter valid username\n2. Enter wrong password\n3. Click Login,testuser / WrongPass,Error message shown,Error: Invalid username or password,PASS
+TC-003,Empty fields validation,None,1. Leave fields empty\n2. Click Login,,Validation errors shown,Validation errors: Username and password are required,PASS
+TC-004,Account locking,User registered,1. Fail login 5 times\n2. Login with correct password,lockuser / Pass123!,Account locked message,Message: Account locked due to multiple failed attempts,PASS
+TC-005,Session timeout (Real-Time),User logged in,1. Stay idle for 30m\n2. Interact with dashboard,testuser,Redirect to login with Session Expired,Redirected to login with Session Expired,PASS
