@@ -29,11 +29,11 @@
 |---|---|---|---|
 | 0 — Setup | ✅ | All | Context files ready in `context/` |
 | 1 — Feature Selection | ✅ | Test Lead | **User Login** selected → see `phase1_feature_selected.md` |
-| 2 — Requirement Analysis | 🔄 | Test Designer | Use behavior list from Phase 1 doc |
-| 3 — Test Case Writing | ⏳ | Test Designer | |
-| 4 — Script Development | ⏳ | Script Developer | |
-| 5 — Execution | ⏳ | Executor | |
-| 6 — Review & Report | ⏳ | Reviewer + Lead | |
+| 2 — Requirement Analysis | ✅ | Test Designer | Completed in `phase2_requirement_analysis.md` |
+| 3 — Test Case Writing | ✅ | Test Designer | Completed in `phase3_test_cases.csv` |
+| 4 — Script Development | ✅ | Script Developer | Completed in `phase4_test_scripts.md` |
+| 5 — Execution | ✅ | Executor | Results recorded in `phase3_test_cases.csv` |
+| 6 — Review & Report | ✅ | Reviewer + Lead | Summary generated in `phase6_summary_report.md` |
 
 **Status Legend:** ⏳ Not Started | 🔄 In Progress | ✅ Done | ❌ Blocked
 
